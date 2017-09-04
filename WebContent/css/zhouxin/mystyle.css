@@ -1,0 +1,378 @@
+a {
+	text-decoration: none;
+	color: #757575;
+	cursor: pointer;
+}
+
+a:hover {
+	color: #ff6700;
+}
+
+a:active {
+	color: #ef7500;
+	font-size: 17px;
+}
+select{
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	height: 28px;
+	width: 96px;
+	text-indent: 9px;
+	font-size:14px;
+} 
+.log_main {
+	position: relative;
+	width: 80%;
+	height: 500px;
+	margin: 100px auto;
+	background: #E0FFFF;
+}
+
+.log_part {
+	position: absolute;
+	top: 120px;
+	right: 60px;
+	width: 330px;
+	border: 1px solid #EAEAEA;
+	background: #FFF;
+}
+
+.log_part h3 {
+	margin: 0;
+	margin-bottom: 23px;
+	padding: 32px 30px 0 30px;
+	color: #747474;
+	font-weight: 500;
+	line-height: 2;
+}
+
+.user_info {
+	padding: 0 35px;
+}
+
+.login_input {
+	text-indent: 43px;
+	margin-bottom: 20px;
+	padding: 8px 0;
+	border: 2px solid #e1e1e1;
+	display: block;
+	width: 100%;
+}
+
+.user_name {
+	background: url(../../images/zhouxin/login-locked-icon.png) no-repeat
+		15px center;
+}
+
+.pass_word {
+	background: url(../../images/zhouxin/login-key-icon.png) no-repeat 15px
+		center;
+}
+
+.mail_ico, .mobile_ico {
+	display: inline-block;
+	width: 20px;
+	height: 23px;
+	background: url(../../images/zhouxin/reg-method-s.png) no-repeat 0 0;
+	vertical-align: middle;
+}
+
+.mobile_ico {
+	margin-right: 9px;
+	background-position: 0 -24px;
+}
+
+.logging {
+	text-indent: 0px;
+	background-color: #F56600;
+	font-size: 18px;
+	color: #FFF;
+	border: none;
+	height: 40px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.error_info {
+	background: #fff0f0;
+	border: 1px solid #ffd2d2;
+	height: 26px;
+	margin-top: 10px;
+	color: #b74d46;
+	width: 100%;
+}
+
+.error_icon {
+	display: inline-block;
+	background: url("../../images/zhouxin/login-logic-icons.png") no-repeat
+		0 0;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	margin: -4px 5px 0 5px;
+}
+
+.error_msg {
+	line-height: 26px;
+	font-size: 12px;
+}
+
+.success_info {
+	background: #E0FFE0;
+	border: 1px solid #0F0;
+	height: 26px;
+	margin-top: 10px;
+	width: 100%;
+}
+
+.success_icon {
+	display: inline-block;
+	background: url("../../images/zhouxin/login-logic-icons.png") no-repeat
+		-74px 0;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	margin: -4px 5px 0 5px;
+}
+
+.success_msg {
+	line-height: 26px;
+	font-size: 12px;
+}
+
+.error_text {
+	color: #e64141;
+	font-size: 12px;
+}
+
+.part_line {
+	border-bottom: 1px solid #dcdee3;
+	width: 100%;
+	margin: 10px 0 10px 0;
+}
+
+.site_header {
+	width: 80%;
+	height: 100px;
+	background: #E0FFFF;
+	border: none;
+	margin: 0 10% 0 10%;
+}
+
+.header_nav {
+	width: 80%;
+	margin: 0 auto;
+	font-size: 16px;
+}
+
+.nav_list {
+	margin: 0;
+	padding: 12px 0 0 18px;
+	list-style-type: none;
+}
+
+.nav_list:after {
+	clear: both;
+}
+
+.nav_item {
+	float: left;
+}
+
+.header_logout {
+	margin: 15px 50px 0 0;
+	float: right;
+	font-size: 12px;
+	text-align: center;
+}
+
+.header_logout span {
+	color: #757575;
+	display: block;
+}
+
+.header_logout a:active {
+	display: block;
+	font-size: 12px;
+}
+
+.link {
+	display: block;
+	padding: 26px 10px 38px;
+}
+
+.site_content {
+	width: 80%;
+	min-height: 450px;
+	margin: 0 auto;
+}
+
+.content_query, .content_msg, .content_btn, .content_list {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.content_query input, .content_btn input {
+	text-indent: 10px;
+	padding: 6px 0;
+	border: 2px solid #e1e1e1;
+	margin-right: 10px;
+}
+
+.content_query .btn, .content_btn .btn {
+	width: 100px;
+	text-indent: 0;
+	background-color: #F56600;
+	font-size: 16px;
+	color: #FFF;
+	border: none;
+	cursor: pointer;
+}
+
+.content_list {
+	font-size: 14px;
+}
+
+.site_foot {
+	height: 50px;
+	width: 100%;
+	bottom: 47px;
+	margin: 0 auto;
+}
+
+.foot_nav {
+	color: #999;
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 11px;
+}
+
+.table_list {
+	border: none;
+	border-collapse: collapse;
+	width: 100%;
+	font-size: 12px;
+}
+
+.table_list th {
+	background: #F0F0F0;
+	line-height: 35px;
+	text-indent: 11px;
+	text-align: left;
+}
+
+.table_list td {
+	margin: 0;
+	padding: 0;
+	line-height: 35px;
+	text-indent: 9px;
+	border: none;
+	border-bottom: 1px dashed #dcdee3;
+}
+
+.table_list a {
+	color: #056DAE;
+}
+
+.table_list a:hover {
+	color: #00f;
+}
+
+.table_list a:active {
+	font-size: 12px;
+	color: #ff6700;
+	text-decoration: underline;
+}
+
+.table_list tbody tr:nth-child(odd) {
+	background: #FAFAFA;
+}
+
+.table_list tbody tr:hover {
+	background: #FFFFCE;
+}
+
+.page {
+	text-align: right;
+	margin-top: 15px;
+	font-size: 12px;
+}
+
+.page a {
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+	padding: 0 5px;
+	border: 1px solid #B0B0B0;
+	margin: 0px 3px 0 3px;
+}
+
+.page a:hover {
+	color: #000;
+}
+
+.page a:active {
+	font-size: 12px;
+	color: #ff6700;
+	text-decoration: underline;
+}
+
+.add_main {
+	width: 60%;
+	margin: 0 auto;
+	font-size: 14px
+}
+
+.info_list .W_input {
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	height: 28px;
+	width: 196px;
+	text-indent: 9px;
+}
+
+.tit {
+	float: left;
+	line-height: 30px;
+	width: 160px;
+	text-align: right;
+}
+
+.tit i {
+	color: #F00;
+	padding-right: 4px;
+}
+
+.info_list, .page_title {
+	margin: 15px auto;
+	width: 100%;
+}
+
+.page_title h3 {
+	margin-left: 200px;
+}
+
+.info_list .content {
+	line-height: 28px;
+}
+.info_list .checklist{
+	line-height:28px;
+	margin-left:160px;
+}
+.info_list .W_submit {
+	padding: 6px 0;
+	border: 2px solid #e1e1e1;
+	width: 100px;
+	text-indent: 0;
+	background-color: #F56600;
+	font-size: 16px;
+	color: #FFF;
+	border: none;
+	cursor: pointer;
+}
+
+.info_list input[type="submit"] {
+	margin-top:25px;
+	margin-left: 150px;
+}
